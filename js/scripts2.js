@@ -15,13 +15,13 @@ $(document).ready(function() {
          pingPongLoop += i + ", ";
          $("#result").text(pingPongLoop);
          pingPongArray = [pingPongLoop];
-
+         pingPongArrayParse = parseInt(pingPongArray);
          //alert [pingPongArray];
          //console.log(pingPongLoop);
          console.log(pingPongArray);
          //for (var i=0; i <=numberEnteredParsed; i++) {
            //pingPongArraySliced = " ";
-           //for (var i = 0; pingPongArray.length - 1 >= i; i++) {
+           //for (var i = 0; pingPongArrayParse.length - 1 >= i; i++) {
          if (numberEnteredParsed % 15 === 0) {
            $("#result").text("PingPong");
          } else if (numberEnteredParsed % 5 === 0) {
