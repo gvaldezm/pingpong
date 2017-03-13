@@ -2,7 +2,8 @@ Author: Gabriel Valdez
 email: gvaldezm@gmail.com
 
 Gh-pages in GitHub: https://gvaldezm.github.io/pingpong/
-GitHub project page: https://github.com/gvaldezm/project2
+
+GitHub project page: https://github.com/gvaldezm/pingpong
 
 Specs:
 * Returns the list of numbers up to the number the user enters
@@ -20,3 +21,5 @@ Specs:
 * Returns "pingpong" if the number entered is divisible by 15
   Ex Input: 30
   Ex Output: pingpong
+
+* Trial sentence
