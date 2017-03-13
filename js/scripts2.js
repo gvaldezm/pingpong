@@ -19,15 +19,20 @@ $(document).ready(function() {
          //alert [pingPongArray];
          //console.log(pingPongLoop);
          console.log(pingPongArray);
-         
+         //for (var i=0; i <=numberEnteredParsed; i++) {
+           //pingPongArraySliced = " ";
+           //for (var i = 0; pingPongArray.length - 1 >= i; i++) {
          if (numberEnteredParsed % 15 === 0) {
            $("#result").text("PingPong");
          } else if (numberEnteredParsed % 5 === 0) {
            $("#result").text("Pong");
          } else if (numberEnteredParsed % 3 === 0) {
            $("#result").text("Ping");
-      }
+         } else {
+            $("#result").text(pingPongLoop);
+         }
     }
+    //}
 
     });
 });
