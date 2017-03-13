@@ -1,6 +1,9 @@
 Author: Gabriel Valdez
 email: gvaldezm@gmail.com
 
+Gh-pages in GitHub: https://gvaldezm.github.io/pingpong/
+GitHub project page: https://github.com/gvaldezm/project2
+
 Specs:
 * Returns the list of numbers up to the number the user enters
   Ex Input: 3
