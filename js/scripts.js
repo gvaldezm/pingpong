@@ -1,7 +1,7 @@
 $(document).ready(function() {
- //$("#result").hide();
+
   $("form#pingpong").submit(function(event) {
-      //$("#result").hide();
+      $("#result").text(" ");
       event.preventDefault();
       //$("#result").hide();
       var numberEntered = $("#number").val();
@@ -17,7 +17,7 @@ $(document).ready(function() {
          //alert [pingPongArray];
          //console.log(pingPongLoop);
          console.log(i);
-
+         //$("#result").text();
          if (i % 15 === 0) {
            $("#result").append("PingPong" + "</br>" );
          } else if (i % 5 === 0) {
