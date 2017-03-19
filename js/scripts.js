@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $("form#pingpong").submit(function(event) {
-      $("#result").text(" ");
+      $("#result").text(" "); //resets the list of numbers so every time a user enters a new number, they only see the list of that number
       event.preventDefault();
       //$("#result").hide();
       var numberEntered = $("#number").val();
