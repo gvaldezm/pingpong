@@ -4,26 +4,28 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
    <link href="css/styles.css" rel="stylesheet" type="text/css">
    <script src="js/jquery-3.1.1.js"></script>
-   <script src="js/scripts2.js"></script>
+   <script src="js/scripts.js"></script>
     <title>Ping Pong</title>
   </head>
   <body>
     <div class="container">
      <h1>Let's play pingpong!</h1>
-
-     <form id="pingpong">
-       <div class="form-group clearcl">
-         <label for="number">Enter your number:</label>
-         <input id="number" type="number">
+      <div class="row">
+       <div class="col-md-6">
+         <form id="pingpong">
+           <div class="form-group clearcl">
+             <label for="number">Enter your number:</label>
+             <input id="number" type="number">
+           </div>
+         <button type="submit" class="btn">Play!</button>
+        </form>
+       </div>
+       <div class="col-md-6">
+        <div id="result">
+        </div>
        </div>
 
-       <button type="submit" class="btn">Play!</button>
-     </form>
-
-     <div id="result">
-
+      </div>
      </div>
-   </div>
-
   </body>
 </html>
